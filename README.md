@@ -147,13 +147,29 @@ Create additional files/folders within `memory-bank/` as needed:
 ### GitHub Copilot
 
 1. Set up the `.github/` directory with the provided files
-2. When working with Copilot Chat, you can reference the Memory Bank files:
+2. Configure VS Code settings to use the instruction files:
+
+   ```json
+   "github.copilot.chat.codeGeneration.instructions": {
+     "instructions": [
+       {
+         "file": ".github/copilot-instructions.md",
+       },
+       {
+         "file": ".github/memory-bank.md",
+       }
+     ],
+   }
+   "github.copilot.chat.codeGeneration.useInstructionFiles": true,
+   ```
+
+3. When working with Copilot Chat, the memory bank will auto attach to the chat or you can manually attach it:
 
    ```text
    I'd like you to read my memory-bank files to understand the project context.
    ```
 
-3. Update the Memory Bank:
+4. Update the Memory Bank:
 
    ```text
    update memory bank
