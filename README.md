@@ -27,6 +27,32 @@ The Memory Bank system provides AI assistants with persistent context between se
 
 This allows for more consistent and effective AI assistance across multiple sessions and different AI tools.
 
+## Branch Structure
+
+This repository contains multiple branches for different use cases:
+
+### `boilerplates` Branch
+
+- Contains only the Memory Bank template files
+- Ideal for users who want to implement the Memory Bank pattern in their existing projects
+- No additional code or frameworks included
+
+### `develop` Branch
+
+- Contains a Django REST Framework implementation with the Memory Bank pattern
+- Includes authentication, API endpoints, and a working example
+- Perfect for users who want to see a working implementation or start a new DRF project with Memory Bank integration
+
+Choose the branch that best fits your needs:
+
+```bash
+# For just the Memory Bank template
+git checkout boilerplates
+
+# For the full DRF implementation with Memory Bank
+git checkout develop
+```
+
 ## 🚀 Getting Started
 
 ### 1. Clone this repository
