@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.py.class
+
+# Django
+*.log
+*.pot
+*.pyc
+*.mo
+*.db
+*.sqlite3
+*.sqlite3-journal
+media/
+staticfiles/
+static_root/
+local_settings.py
+.env
+.env.*
+*.env
+*.bak
+*.swp
+
+# VSCode
+.vscode/
+
+# macOS
+.DS_Store
+
+# Virtualenv
+venv/
+env/
+ENV/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Migrations
+# **/migrations/
+!**/migrations/__init__.py
+
+# Test output
+test-results/
+junit-*.xml
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# Pytest
+.pytest_cache/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# IDEs
+.idea/
+*.iml
+
+# Node (if using npm/yarn for frontend)
+node_modules/
+npm-debug.log
+yarn-error.log
