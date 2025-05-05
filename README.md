@@ -284,7 +284,7 @@ Example authentication flow:
 # Request a token
 response = requests.post(
     'http://localhost:8000/api/token/',
-    data={'username': 'user@example.com', 'password': 'password123'}
+    data={'email': 'user@example.com', 'password': 'password123'}
 )
 token = response.json()['access']
 
